@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Movie store</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="wrapper">   <!--!wrapper-->
+      <header class="header"> <!--!header-->
+         <div class="header__inner">   <!--*header inner-->
+            <nav class="menu">   <!--*header menu-->
+               <div class="menu__logo">   <!--*header logo-->
+                  <img src="img/logo.png" alt="" class="menu__logo-img">
+               </div>
+               <div class="menu__icons">  <!--*header navigation-->
+                  <a href="#"><img src="img/icons/comics.png" alt="comics" class="menu__icons-img"></a>
+                  <a href="#" class="this-page"><img src="img/icons/movies.png" alt="movies" class="menu__icons-img"></a>
+                  <a href="#"><img src="img/icons/video.png" alt="video" class="menu__icons-img"></a>
+                  <a href="#"><img src="img/icons/game.png" alt="game" class="menu__icons-img"></a>
+                  <a href="#"><img src="img/icons/tv.png" alt="tv" class="menu__icons-img"></a>
+                  <a href="#"><img src="img/icons/more.png" alt="more" class="menu__icons-img"></a>
+               </div>
+               <div class="menu__profile">   <!--*header profile-->
+                  <img src="" alt="" class="menu__profile-icon">
+                  <h2 class="menu__profile-name">Carol Danvers</h2>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <div class="banner"> <!--!banner-->
+         <div class="banner__btn-watch">  <!--*banner button(watch)-->
+            <a href="#"><h2 class="banner__btn-watch-text">Watch now</h2></a>
+         </div>
+         <div class="banner__info"> <!--*banner info-->
+            <div class="banner__info-left banner__info-padding">
+               <div class="banner__info-data banner__info-padding">
+                  <h2>Published <span class="color-red">Feb 20, 2014</span></h2>
+               </div>
+               <div class="banner__info-update banner__info-padding">
+                  <h2>Updated <span class="color-red">Feb 20, 2014</span></h2>
+               </div>
+               <div class="banner__info-rating banner__info-padding">
+                  <h2>Rating <span class="color-red">★★★★<span class="color-white">☆</span></span></h2>
+               </div>
+            </div>
+            <div class="banner__info-right">
+               <div class="banner__info-follows banner__info-padding">
+                  <img src="./img/icons/like.png" alt="likes"> 2,548
+               </div>
+               <div class="banner__info-comments banner__info-padding">
+                 <img src="./img/icons/comments.png" alt="comments"> 21
+               </div>
+               <div class="banner__info-downloads banner__info-padding">
+                  <img src="./img/icons/downloads.png" alt="downloads"> 564
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="movies"> <!--!movies-->
+         <div class="movies__menu"> <!--*movies menu-->
+            <div class="movies__menu-title">
+               <h2>Избранные фильмы</h2>   <!--*movies title-->
+            </div>
+         </div>
+         <div class="movies__content"> <!--*movies content-->
+            <div class="movies__content-guardians-of-the-galaxy"><!--todo movies "Guardians of the Galaxy"-->
+               <div class="movies__content-guardians-of-the-galaxy-rating">
+                  <ul class="movies__content-guardians-of-the-galaxy-rating-ul">
+                     <li><span>3,542</span></li><!--*likes-->
+                     <li><span>7</span></li><!--*comments-->
+                     <li><span>23</span></li><!--*downloads-->
+                     <li>Рейтинг: <span class="color-red"> ★★★★<span class="color-black">☆</span></span></li><!--*rating-->
+                     <li>Дата: <span class="color-red"> Фев 20, 2014</span></li><!--*data-->
+                  </ul>
+               
+                     <a href="#"><img src="./img/icons/downloads-white.png" alt="downloads" class="movies__content-guardians-of-the-galaxy-downloads"></a><!--*button download(white)-->
+                  <div class="movies__content-guardians-of-the-galaxy-buttons">
+                     <div><a href="./films/torents/Guardian-of-the-Galaxy-2014.torrent" download=""><img src="./img/icons/downloads.png" alt="downloads" class="movies__content-guardians-of-the-galaxy-downloads-red"></a></div><!--*button download(red)-->
+                     <div><a href="https://drive.google.com/file/d/10xo3YoVS90Dip7EmFK8vC7bKH5FcokYD/view"><img src="./img/icons/video.png" alt="play" class="movies__content-guardians-of-the-galaxy-play"></a></div><!--*button play-->
+                  </div>
+               </div>
+               <h2>
+                  Стражи Галактики
+               </h2>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
