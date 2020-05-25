@@ -351,6 +351,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #00ff33;
+  font-weight: 700;
   font-size: 13px;
   padding: 115px 0;
 }
@@ -368,7 +370,8 @@ body {
 
 .movies__content-guardians-of-the-galaxy:hover h2 {
   padding: 210px 0;
-  color: #fff;
+  color: #00ff33;
+  font-weight: 700;
 }
 
 .movies__content-guardians-of-the-galaxy:hover .movies__content-guardians-of-the-galaxy-downloads {
@@ -488,8 +491,172 @@ body {
   display: none;
 }
 
+.movies__content-guardians-of-the-galaxy-2 {
+  display: inline-block;
+  margin: 15px 20px;
+  width: 210px;
+  height: 190px;
+  background: url(../img/guardians-of-the-galaxy-2017.jpg) no-repeat;
+  background-position: center;
+  background-size: 140%;
+  border-radius: 5px;
+}
+
+.movies__content-guardians-of-the-galaxy-2 h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #00ff33;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 115px 0;
+}
+
+.movies__content-guardians-of-the-galaxy-2:hover {
+  width: 205px;
+  height: 380px;
+  background: #fff url(../img/guardians-of-the-galaxy-2017.jpg) no-repeat;
+  background-position: center;
+  background-size: 150% 190px;
+  background-position: bottom;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+  color: #000000;
+}
+
+.movies__content-guardians-of-the-galaxy-2:hover h2 {
+  padding: 210px 0;
+  color: #00ff33;
+  font-weight: 700;
+}
+
+.movies__content-guardians-of-the-galaxy-2:hover .movies__content-guardians-of-the-galaxy-2-downloads {
+  display: none;
+}
+
+.movies__content-guardians-of-the-galaxy-2:hover__content-guardians-of-the-galaxy-2-buttons {
+  display: block;
+}
+
+.movies__content-guardians-of-the-galaxy-2:hover .movies__content-guardians-of-the-galaxy-2-downloads-red {
+  display: inline-block;
+  margin: 18px 20px 10px 0px;
+  width: 20px;
+}
+
+.movies__content-guardians-of-the-galaxy-2:hover .movies__content-guardians-of-the-galaxy-2-play {
+  display: inline-block;
+  padding: 15px 0px 0 0;
+  width: 20px;
+}
+
+.movies__content-guardians-of-the-galaxy-2:hover .movies__content-guardians-of-the-galaxy-2-rating-ul li:nth-child(2) {
+  display: -ms-grid;
+  display: grid;
+}
+
+.movies__content-guardians-of-the-galaxy-2:hover .movies__content-guardians-of-the-galaxy-2-rating-ul li:nth-child(3) {
+  display: -ms-grid;
+  display: grid;
+}
+
+.movies__content-guardians-of-the-galaxy-2:hover .movies__content-guardians-of-the-galaxy-2-rating-ul li:nth-child(4) {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.movies__content-guardians-of-the-galaxy-2:hover .movies__content-guardians-of-the-galaxy-2-rating-ul li:nth-child(5) {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.movies__content-guardians-of-the-galaxy-2-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-rating-ul li {
+  display: -ms-grid;
+  display: grid;
+  padding: 0 0 0 10px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-rating-ul li:nth-child(2) {
+  display: none;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-rating-ul li:nth-child(3) {
+  display: none;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-rating-ul li:nth-child(4) {
+  display: none;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-rating-ul li:nth-child(5) {
+  display: none;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-rating-ul li:first-child {
+  padding: 18px 0 0 10px;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-rating-ul li:first-child span {
+  background: url(../img/icons/like.png) no-repeat left;
+  padding-left: 25px;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-rating-ul li:nth-child(2) span {
+  background: url(../img/icons/comments.png) no-repeat left;
+  padding-left: 25px;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-rating-ul li:nth-child(3) span {
+  background: url(../img/icons/downloads.png) no-repeat left;
+  padding-left: 25px;
+}
+
+.movies__content-guardians-of-the-galaxy-2-downloads {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 18px 0 0 80px;
+  width: 20px;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-downloads-red {
+  display: none;
+}
+
+.movies .movies__content-guardians-of-the-galaxy-2-play {
+  display: none;
+}
+
 .movies__content-hacksaw-ridge {
   display: inline-block;
+  margin: 15px 20px;
   width: 205px;
   height: 190px;
   background: url(../img/hacksaw-ridge.jpg) no-repeat;
@@ -508,6 +675,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #02f833;
+  font-weight: 700;
   font-size: 13px;
   padding: 115px 0;
 }
@@ -527,7 +696,7 @@ body {
 
 .movies__content-hacksaw-ridge:hover h2 {
   padding: 210px 0;
-  color: #fff;
+  color: #02f833;
 }
 
 .movies__content-hacksaw-ridge:hover .movies__content-hacksaw-ridge-downloads {
